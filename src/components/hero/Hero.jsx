@@ -15,7 +15,7 @@ const Hero = () => {
           <h3>Web Developer</h3>
           <h3>Web Developer</h3>
         </div>
-        <Link to="indexx.html" className="btn">
+        <Link to="" className="btn">
           See My Work
         </Link>
         <div className="media-icons">

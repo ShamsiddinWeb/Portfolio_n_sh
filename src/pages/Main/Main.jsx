@@ -12,11 +12,11 @@ const Main = () => {
     <div>
       <MainHeader/>
       <Hero/>
-      <About/>
+       <About/>
       <Services/>
       <Work/>
       <Contact/>
-      <Footer/>
+      <Footer/> 
     </div>
   )
 }

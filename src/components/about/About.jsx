@@ -11,8 +11,8 @@ const About = () => {
       </div>
       <div className="content">
         <div className="column col-left reveal">
-          <div className="img-card">
-            <img src={n} width={600} height={600} alt="n"/>
+          <div>
+            <img className="img-card" src={n}  alt="n"/>
           </div>
         </div>
         <div className="column col-right reveal">
@@ -26,7 +26,7 @@ const About = () => {
             nobis.
           </p>
           <br />
-          <p className="paragraph-text">
+          <p className="paragraph-texte">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             corporis ullam deserunt debitis. Rerum necessitatibus accusantium,
             ipsa, officiis, eos pariatur esse velit veritatis reiciendis cum

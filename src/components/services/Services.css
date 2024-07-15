@@ -16,7 +16,7 @@
 
 .services .content .card {
   background: #fff;
-  width: 300px;
+  /* width: 300px; */
   margin: 10px;
   padding: 25px;
   justify-content: center;
@@ -30,7 +30,7 @@
   color: crimson;
   font-size: 120px;
   text-align: center;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 
 .services .card .service-icon:hover {
@@ -50,4 +50,15 @@
 .card {
   padding-top: 20px;
   color: black;
+}
+@media only screen and (max-width: 800px) {
+  .services  {
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .services .content .card {
+    width: 100%;
+  }
 }

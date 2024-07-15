@@ -28,7 +28,6 @@
 
 .about .content .img-card img {
   border-radius: 10px;
-
 }
 
 .about .content-title {
@@ -37,4 +36,60 @@
   font-weight: 800;
   margin-bottom: 20px;
   user-select: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .img-card {
+    width: 400px;
+  }
+  .paragraph-texte {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .img-card {
+    width: 300px;
+  }
+  .content h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main .content h2 span {
+    font-size: 40px;
+  }
+  .about {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .main .content h2 span {
+    font-size: 40px;
+  }
+  .about {
+    padding: 20px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .img-card {
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+
+  .about .content .col-left {
+    position: relative;
+    width: 80%;
+  }
+
+  .about .content .col-right {
+    position: relative;
+    width: 100%;
+  }
 }
