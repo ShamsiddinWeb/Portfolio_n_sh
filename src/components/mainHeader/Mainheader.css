@@ -1,0 +1,96 @@
+.menu-btn .menu-icon {
+  display: none;
+  font-size: 40px;
+}
+.header-menu-contact a {
+  font-size: 24px;
+  margin-top: 28px;
+}
+
+.header-menu-contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.header-menu-contact .header-menu-call {
+  padding: 10px 15px;
+  transition: 0.5s;
+  border-radius: 50%;
+  background: rgb(62, 200, 92);
+  color: var(--white);
+}
+
+.header-menu-contact .header-menu-call:hover {
+  border-radius: 8px;
+}
+
+.header-menu-contact .header-menu-telegram {
+  color: var(--white);
+  padding: 10px 15px;
+  background: blue;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.header-menu-contact .header-menu-telegram:hover {
+  border-radius: 8px;
+}
+
+/* 5555555555555555555555555555555555555 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* sekin tushadigan qiladi stranitsada */
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  transition: 0.5s ease;
+}
+.header.shrink {
+  background-color: rgb(196, 15, 51);
+}
+.header-menu-call:hover.sticky {
+  background: crimson;
+  padding: 10px 100px;
+}
+
+.header .brand {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header .navigation {
+  position: relative;
+}
+
+.header .navigation a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.5s ease;
+}
+
+.header .navigation a:hover {
+  /* color: crimson; */
+  color: #666;
+}

@@ -1,0 +1,40 @@
+.about {
+  background-color: rgb(157, 155, 155);
+}
+.about .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.about .content .col-left {
+  position: relative;
+  width: 45%;
+}
+
+.about .content .col-right {
+  position: relative;
+  width: 45%;
+}
+
+.about .content .img-card {
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+}
+
+.about .content .img-card img {
+  border-radius: 10px;
+
+}
+
+.about .content-title {
+  /* flkjdgnduo */
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  user-select: none;
+}
